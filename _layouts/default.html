@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div id="info-content-wrapper" class="content-wrapper">
+      <div class="content-wrapper__inner">
+        {{ content }}
+
+      </div>
+
+      {% include footer.html %}
+    </div>
+
+    <!-- The Modal -->
+    <div id="legalModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 style="font-weight: bold;">Aviso legal xLilium.es</h2>
+        {% for legalSection in site.data.legal %}
+          <h3 style="font-weight: bold;">{{ legalSection.name }}</h3>
+          <p>{{ legalSection.desc }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+# skills section data
+
+# Suggest skills' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Animación
+  id: animacion
+  # gh_user: user
+  # repo: repo
+  img: /images/skills/animacion.png
+  imghover: /images/skills/animacion-ejemplo.png
+  desc: Siempre me ha gustado la animación y la posibilidad de dar vida y contar historias. Una de mis pasiones es crear personajes y dotarles de movimiento y personalidades. Aquí podrás ver parte de ese trabajo.
+
+- name: Modelado
+  id: modelado
+  # gh_user: user
+  # repo: repo
+  img: /images/skills/modelado.png
+  imghover: /images/skills/modelado-ejemplo.png
+  desc: Con el modelado 3D puedo reflejar las ideas que tengo en mi cabeza, ya que de otra forma no podría. Tanto el diseño de personajes, como de escenarios y objetos me encantan.
+
+- name: Texturizado e iluminación
+  id: texturizado-iluminación
+  # gh_user: user
+  # repo: repo
+  img: /images/skills/texturizado.png
+  imghover: /images/skills/texturizado-ejemplo.png
+  desc: Por último, iluminar y texturizar es mi parte favorita de todo el proceso. Manejo principalmente el software de Autodesk Maya y Arnold, pero también estoy aprendiendo Blender, Zbrush y Substance Painter.

@@ -1,0 +1,53 @@
+---
+layout: default
+robots: noindex
+---
+
+<!--<div class="main-post-list">-->
+
+  <ul class="timeline">
+    
+    {% for skill in site.data.skills %}
+
+      <li class="timeline-inverted">
+        <div id="{{ skill.id }}" class="timeline-image">
+          <img class="img-me no-hover" src="{{ skill.img | prepend: site.baseurl }}" alt="">
+          <img class="img-me hover hidden" src="{{ skill.imghover | prepend: site.baseurl }}" alt="">
+        </div>
+
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="text-title">{{ skill.name }}</h4>
+          </div>
+          <div class="timeline-body">
+            {{ skill.desc | markdownify }}
+            {%- comment -%} <div user="{{ skill.gh_user }}" repo="{{ skill.repo }}" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/{{ skill.gh_user }}/{{ skill.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ skill.gh_user }}/{{ skill.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ skill.gh_user }}/{{ skill.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ skill.gh_user }}/{{ skill.repo }}/watchers">
+              <div style="height: 10px;"></div>
+            </div> {%- endcomment -%}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+  <div class="video-responsive">
+    <iframe 
+      src="https://www.youtube.com/embed/MuubVC1fy2c" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+      </iframe>
+  </div>
+
+
+<!--</div>-->
+

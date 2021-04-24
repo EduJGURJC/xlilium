@@ -1,0 +1,36 @@
+# Site settings
+title: xLilium
+description: 'Generalista 3D'
+url: 'http://xlilium.es'
+baseurl: ''
+profilepic: '/images/xlilium-white.png'
+# bkimage: '/images/bk1.jpg'
+google_analytics: G-NMT3XWPYV7
+font_awesome: '94355644f2.js'
+
+author:
+  name: Cristina Hernando Martínez
+  email: xlilium.art@gmail.com
+  twitter_username: xLilium_
+  linkedin_username: crishm
+  instagram_username: xLilium_
+  artstation_username: xlilium
+  # blog_url: url
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
