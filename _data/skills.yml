@@ -7,7 +7,7 @@
   # repo: repo
   img: /images/skills/animacion.png
   imghover: /images/skills/animacion-ejemplo.png
-  desc: Siempre me ha gustado la animación y la posibilidad de dar vida y contar historias. Una de mis pasiones es crear personajes y dotarles de movimiento y personalidades. Aquí podrás ver parte de ese trabajo.
+  desc: Siempre me ha gustado la animación y la posibilidad de dar vida y contar historias. Una de mis pasiones es crear personajes y dotarles de movimiento y personalidad.
 
 - name: Modelado
   id: modelado
@@ -23,4 +23,4 @@
   # repo: repo
   img: /images/skills/texturizado.png
   imghover: /images/skills/texturizado-ejemplo.png
-  desc: Por último, iluminar y texturizar es mi parte favorita de todo el proceso. Manejo principalmente el software de Autodesk Maya y Arnold, pero también estoy aprendiendo Blender, Zbrush y Substance Painter.
+  desc: Iluminar y texturizar es mi parte favorita de todo el proceso. Manejo principalmente el software de Autodesk Maya y Arnold, pero también estoy aprendiendo Blender, Zbrush y Substance Painter.
